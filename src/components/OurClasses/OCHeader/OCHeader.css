@@ -1,0 +1,27 @@
+.ocheader-root{
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-image: url('../../../Image_Icon/header-bg.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.ocheader-root::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.ocheadline{
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 5rem;
+}

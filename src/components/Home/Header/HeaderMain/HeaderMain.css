@@ -1,0 +1,50 @@
+.header-main-root{
+    color: white;
+    
+}
+
+.header-info{
+    display: flex;
+    min-height: 600px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header-info h1{
+    font-size: 5rem;
+}
+
+.header-info button{
+    width: 50%;
+}
+
+.header-main-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+}
+
+.play-button{
+    cursor: pointer;
+}
+
+.header-main-video i{
+    font-size: 4rem;
+    padding: 10px;
+}
+.header-main-video::before{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    content: 'X';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    font-size: 25rem;
+    font-weight: 900;
+    opacity: 0.3;
+    
+}

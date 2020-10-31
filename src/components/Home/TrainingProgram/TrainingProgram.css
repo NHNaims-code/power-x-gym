@@ -1,0 +1,32 @@
+.training-program-root{
+    min-height: 500px;
+}
+
+.tp-card-1{
+    background-image: url('../../../Image_Icon/training-program1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+}
+
+.tp-card-1 h2{
+    position: absolute;
+    margin-top: 250px;
+}
+
+.tp-card-2{
+    background-image: url('../../../Image_Icon/training-program2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+    width: 100%;
+    
+}
+
+.tp-card-2 h2{
+    position: absolute;
+    margin-top: 250px;
+}

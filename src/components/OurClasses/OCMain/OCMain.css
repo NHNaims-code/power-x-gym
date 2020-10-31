@@ -1,0 +1,133 @@
+.ocmain-root{
+    height: auto;
+}
+
+.oc-card-1{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 360px;
+    width: 100%;
+    background-image: url('../../../Image_Icon/oc-card1.png');
+}
+.oc-card-1 h2{
+    position: absolute;
+    width: 80%;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 332px;
+    background-color: #FCD842;
+}
+
+.oc-card-2{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 360px;
+    width: 100%;
+    background-image: url('../../../Image_Icon/oc-card2.png');
+    background-position: center;
+    background-size: cover;
+}
+.oc-card-2 h2{
+    position: absolute;
+    width: 80%;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 332px;
+    background-color: #FCD842;
+}
+
+.oc-card-3{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 360px;
+    width: 100%;
+    background-image: url('../../../Image_Icon/oc-card3.png');
+    background-position: center;
+    background-size: cover;
+}
+.oc-card-3 h2{
+    position: absolute;
+    width: 80%;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 332px;
+    background-color: #FCD842;
+}
+
+.oc-card-4{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 360px;
+    width: 100%;
+    background-image: url('../../../Image_Icon/oc-card4.png');
+    background-position: center;
+    background-size: cover;
+}
+.oc-card-4 h2{
+    position: absolute;
+    width: 80%;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 332px;
+    background-color: #FCD842;
+}
+
+.oc-card-5{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 360px;
+    width: 100%;
+    background-image: url('../../../Image_Icon/oc-card5.png');
+    background-position: center;
+    background-size: cover;
+}
+.oc-card-5 h2{
+    position: absolute;
+    width: 80%;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 332px;
+    background-color: #FCD842;
+}
+
+.oc-card-6{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    height: 360px;
+    width: 100%;
+    background-image: url('../../../Image_Icon/oc-card6.png');
+    background-position: center;
+    background-size: cover;
+}
+.oc-card-6 h2{
+    position: absolute;
+    width: 80%;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 332px;
+    background-color: #FCD842;
+}
+
+.ocmain-root h2:hover{
+    background-color: hsl(48, 100%, 45%);
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}

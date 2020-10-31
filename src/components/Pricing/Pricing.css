@@ -1,0 +1,85 @@
+.p-row-root li{
+    margin: 10px 0;
+}
+
+.p-row-root h4{
+    margin-top: 10px;
+}
+.p-row-root h1{
+    font-size: 5rem;
+    margin: 10px 0;
+}
+
+.p-card1{
+    position: relative;
+    background-image: url('../../Image_Icon/bg-card-01.png');
+    background-size: cover;
+   
+    background-position: center;
+    padding: 24px;
+    z-index: 1;
+}
+
+.p-card1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.p-card2{
+    position: relative;
+    background-image: url('../../Image_Icon/bg-card-02.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.p-card2::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.p-card3{
+    position: relative;
+    background-image: url('../../Image_Icon/bg-card-03.png');
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+.p-card3::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.p-row-root ul{
+    list-style: none;
+    padding: 0;   
+}
+.p-row-root h4{
+    cursor: pointer;
+}
+
+.btn-pricing{
+
+}
